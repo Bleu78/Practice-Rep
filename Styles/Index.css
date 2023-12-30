@@ -141,7 +141,53 @@
     font-size: 25px;
 }
 
+.section3{
+    display: flex;
+}
 
+#section3title{
+    color:  rgb(15, 156, 109);
+    font-size: 35px;
+}
+
+.A{
+    width: 150px;
+}
+.B{
+    width: 150px;
+}
+.C{
+    width: 150px;
+}
+.D{
+    width: 150px;
+}
+.E{
+    width: 150px;
+}
+.F{
+    width: 150px;
+}
+.G{
+    width: 100px;
+}
+.H{
+    width: 100px;
+}
+.I{
+    width: 100px;
+}
+.J{
+    width: 100px;
+}
+
+.section4{
+    display: flex;
+}
+
+h2{
+    color:  rgb(15, 156, 109);
+}
 /* #headerlogo {
     width: 40px;
     aspect-ratio: auto 40 / 40;
