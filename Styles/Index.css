@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: ghostwhite;
+
+}
+.header{
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* z-index: 1000; */
+}
+.header img{
+    width: 268px;
+    height: 35px;
+}
+
+.portal{
+    position: relative;
+    left: 50%;
+    display: flex;
+    gap: 25px;
+    text-align: justify;
+}
+
+.li{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 13px;
+    color: dimgray;
+}
+.Ab{
+    color:  rgb(15, 156, 109);
+}
+
+.li:hover{
+    color: rgb(20, 119, 86);
+}
+
+.Sec-top{
+    display: flex;
+    justify-content: center;
+}
+.images{
+        width: 40px;
+        height: 33px;
+        position: relative;
+        left: 350px;
+}
+
+.images-1{
+    padding: 35px;
+    font-size: 30px;
+    font-weight:lighter;
+}
+
+.box{
+    color: dimgrey;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 55px;
+    font-size: 20px;
+}
+
+.first-Sec{
+    padding: 50px;
+    margin: 30px;
+    margin-top: 150px;
+    background-color:ghostwhite;
+    color: rgb(15, 156, 109);
+}
+
+.second-Sec{
+    /* display: grid; */
+    /* grid-template-columns: 300px 270px 300px; */
+    /* padding-left: 300px; */
+    /* gap: 25px; */
+    /* margin: 50px; */
+    /* padding: 150px; */
+    /* padding-left: 50px; */
+    display: flex;
+    gap: 20px;
+    margin: 25px;
+}
+
+.for1{
+    background-color: rgb(15, 156, 109);
+    color: ghostwhite;
+    border-radius: 10px;
+    padding: 35px;
+    height: 255px;
+}
+
+.for2{
+    background-color:royalblue;
+    color: ghostwhite;
+    border-radius: 10px;
+    padding: 35px;
+    width: fit-content;
+    height: 255px;
+    
+}
+
+.for3{
+    background-color:rgb(38, 38, 38);
+    color: ghostwhite;
+    border-radius: 10px;
+    padding: 35px;
+    height: 255px;
+}
+
+
+#stats{
+    font-size: 35px;
+}
+
+#for2title{
+    font-size: 32px;
+}
+
+#for3title{
+    font-size: 35px;
+}
+
+#select1{
+    background-color: rgb(15, 156, 109) ;
+    position: relative;
+    
+}
+
+.Sec-txt{
+    font-size: 25px;
+}
+
+
+/* #headerlogo {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+}
+
+#About,
+#Career:hover,
+#Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+select{
+    font-size: smaller;
+} */
+
