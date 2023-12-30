@@ -188,6 +188,16 @@
 h2{
     color:  rgb(15, 156, 109);
 }
+
+button{
+    background-color:dodgerblue;
+    border-radius: 5px; 
+}
+
+.country{
+    display: flex;
+}
+
 /* #headerlogo {
     width: 40px;
     aspect-ratio: auto 40 / 40;
