@@ -6,16 +6,19 @@
 .container{
     background-color: burlywood;
     width: 100%;
-    
+    align-items: center;
 }
 
 .Label{
-    padding: 15px;
+    padding-top: 15px;
     padding-left: 45px;
     font-size: 55px;
-    font-family: 'Roboto';
     height: 15px;
-    width: 10%;
+    width: 15%;
+}
+
+.Label:hover{
+    color: aliceblue;
 }
 
 .box{
@@ -23,9 +26,33 @@
     padding: 5px 7px;
     color: black;
     font-size: 35px;
-    font-family: 'Roboto';
     position: relative;
     left:50%;
     text-decoration-line: none;
+}
+
+.box:hover{
+    color: aliceblue;
+}
+
+.first-Sec{
+    background-color: black;
+}
+
+.Sec-top{
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.Sec-top img{
+    padding: 50px;
+    width:100px;
+    height: 100px;
+}
+
+.Sec-top p{
+    padding: 15px;
+    font-size: 30px;
 }
 
